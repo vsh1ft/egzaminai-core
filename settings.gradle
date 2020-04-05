@@ -1,0 +1,3 @@
+rootProject.name = 'egzaminai-core'
+gradle.ext.group = 'lt.codedicted.egzaminai'
+gradle.ext.version = '1.0.0'

@@ -1,0 +1,13 @@
+apply plugin: 'maven-publish'
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) { publication ->
+            groupId gradle.ext.group
+            artifactId = rootProject.name
+            version gradle.ext.version
+            from components.java
+
+        }
+    }
+}
